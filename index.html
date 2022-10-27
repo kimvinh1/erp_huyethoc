@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/erp_huyethoc/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="ERP_HUYETHOC">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <!-- Open Graph & SEO tags -->
+  <meta property="og:title" content="ERP_HUYETHOC" />
+  <meta property="og:description" content="Built with FlutterFlow." />
+  <meta property="og:image" content="https://storage.googleapis.com/flutterflow-prod-hosting/og_splash_gradient.png" /> 
+  <meta name="twitter:title" content="ERP_HUYETHOC" />
+  <meta name="twitter:description" content="Built with FlutterFlow." />
+  <meta name="twitter:image" content="https://storage.googleapis.com/flutterflow-prod-hosting/og_splash_gradient.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title> ERP_HUYETHOC </title>
+  <meta name="description" content="Built with FlutterFlow." />
+    
+
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2875215342');
+      });
+    }
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  
+  
+  
+
+  <script>
+    const firebaseConfig = {
+    apiKey: "AIzaSyAzxRqMPerdfj4Wpm4kDGALGhMKY9mG5BU",
+      authDomain: "vinhtest-c016a.firebaseapp.com",
+      projectId: "vinhtest-c016a",
+      storageBucket: "vinhtest-c016a.appspot.com",
+      messagingSenderId: "716550863419",
+      appId: "1:716550863419:web:606945bbf6d5479496ba1e"
+    }
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  
+  
+  
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
